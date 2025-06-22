@@ -16,3 +16,17 @@ def check_weird(n):
         
 check_weird(23)
 check_weird(3)
+
+#Ternary opeartor
+marks = int(input("Enter marks: "))
+
+grade = (
+    "A" if marks >= 90 else
+    "B" if marks >= 80 else
+    "C" if marks >= 70 else
+    "D" if marks >= 60 else
+    "E" if marks >= 40 else
+    "F"
+)
+
+print("Grade:", grade)
